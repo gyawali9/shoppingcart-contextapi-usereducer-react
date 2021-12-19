@@ -1,3 +1,4 @@
+import { useContext } from "react";
 import {
   Badge,
   Container,
@@ -8,8 +9,11 @@ import {
 } from "react-bootstrap";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
+// import { Cart } from "../context/Context";
 
 const Header = () => {
+  // const { cartData } = useContext(Cart);
+  // console.log(cartData);
   return (
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
