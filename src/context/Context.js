@@ -14,7 +14,8 @@ const Context = ({ children }) => {
     fastDelivery: faker.datatype.boolean(),
     ratings: faker.random.arrayElement([1, 2, 3, 4, 5]),
   }));
-  //   const [cartData, setCartData] = useState(products);
+
+  // usereducer is a hook that allows us to use reducer and alternative of usestate
   const [state, dispatch] = useReducer(cartReducer, {
     products: products,
     cart: [],
