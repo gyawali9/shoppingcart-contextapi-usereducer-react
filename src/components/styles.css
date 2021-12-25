@@ -1,3 +1,4 @@
+/* Home component Starts */
 .home {
   display: flex;
 }
@@ -9,6 +10,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+/* Home component Ends */
+/* ****************************************** */
+
+/* Filter component starts */
 .filters {
   background-color: #343a40;
   color: white;
@@ -25,3 +30,13 @@
 .title {
   font-size: 30px;
 }
+/* Filter component ends */
+/* ****************************************** */
+
+/* SingleProduct component starts */
+.products {
+  width: 30%;
+  margin: 10px;
+}
+/* SingleProduct component ends */
+/* ****************************************** */
