@@ -7,7 +7,7 @@ const Home = () => {
   const {
     state: { products },
   } = CartState();
-  console.log(products);
+  // console.log(products);
   // console.log(state);
   return (
     <div className="home">
